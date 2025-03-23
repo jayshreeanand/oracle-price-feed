@@ -1,14 +1,37 @@
-# DeFi Price Oracle
+### NCN DeFi Price Oracle
 
-A simple real-time cryptocurrency price oracle that fetches prices from Binance's public API. This service provides current market prices for various cryptocurrency pairs including SOL/USDT and BTC/USDT.
+A decentralized, real-time price oracle powered by NCN & Cambrian SDK for secure DeFi applications.
 
-## Features
+- **GitHub Repository:** [https://github.com/jayshreeanand/oracle-price-feed](https://github.com/jayshreeanand/oracle-price-feed)
 
-- Real-time price updates from Binance
+#### Project Description:
+
+The **NCN DeFi Price Oracle** is a decentralized, real-time cryptocurrency price feed that fetches and verifies market prices from multiple trusted sources, including **Binance, CoinGecko, KuCoin, and Gate.io**. Built on **Cambrian’s Node Consensus Network (NCN)**, it ensures reliable, tamper-resistant price updates for DeFi applications on Solana.
+
+This oracle provides **high-frequency, on-chain price updates** with built-in verification mechanisms to enhance security and reduce manipulation risks. Designed for **DEXs, lending protocols, and automated trading systems**, it enables trustless financial interactions in the Web3 ecosystem.
+
+### How it Works
+
+- Real-time price aggregation from multiple trusted sources:
+  - CoinGecko
+  - Binance
+  - KuCoin
+  - Gate.io
+- Consensus mechanism requiring 3+ sources to agree
+- 2% maximum deviation threshold for price validation
+- Detailed price reporting with source attribution
 - Configurable update intervals
-- Support for multiple trading pairs
-- Timestamp for each price update
-- Error handling and logging
+- Robust error handling and fallback mechanisms
+
+#### Key Features:
+
+- **Decentralized Price Feeds** – Aggregates prices from Binance, CoinGecko, KuCoin, and Gate.io for accurate market data.
+- **Consensus-Based Verification** – Uses **Node Consensus Networks (NCN)** to validate price integrity before publishing.
+- **Real-Time Updates** – Configurable interval for fetching and updating prices.
+- **Multi-Pair Support** – Supports **SOL/USDT, BTC/USDT**, and can be extended to other tokens.
+- **Consensus Threshold Mechanism** – Prices are validated based on a 2% consensus threshold, filtering out anomalies.
+- **Error Handling & Logging** – Built-in safeguards for API failures and network issues.
+- **Solana Integration** – Designed to be consumed by DeFi smart contracts for lending, swaps, and derivatives.
 
 ## NCN Setup
 
@@ -23,9 +46,21 @@ The service can be configured using either environment variables or command-line
 
 ## Example Output
 
-Timestamp: 2024-03-14T10:30:00.000Z
-SOL/USDT: $147.25
-BTC/USDT: $71234.50
+Timestamp: 2025-03-23T20:01:15.720Z
+
+Symbol: SOLUSDT
+
+CoinGecko: $130.56
+
+Binance: $130.60
+
+Kucoin: $130.59
+
+Gate.io: $130.63
+
+Consensus Price: $130.59
+
+---
 
 ## Error Handling
 
@@ -41,36 +76,35 @@ Errors are logged to the console with relevant details.
 
 Oracle test output:
 
-<img width="808" alt="Screenshot 2025-03-24 at 12 01 54 AM" src="https://github.com/user-attachments/assets/97df7128-345e-42be-bf7c-cc3bf6461300" />
+<img width="1025" alt="Screenshot 2025-03-24 at 1 28 54 AM" src="https://github.com/user-attachments/assets/79f9aabd-c7e1-4c8d-91e1-50754a0f245e" />
 
 AVS Scaffold:
 
-<img width="1645" alt="Screenshot 2025-03-24 at 12 14 07 AM" src="https://github.com/user-attachments/assets/4a974445-4f8f-481c-8c00-73e4d9eee511" />
+<img width="1632" alt="Screenshot 2025-03-24 at 2 02 03 AM" src="https://github.com/user-attachments/assets/ea362686-975d-461b-ace6-ed7918ebd4a1" />
+
 
 Run AVS
-<img width="1383" alt="Screenshot 2025-03-24 at 12 16 43 AM" src="https://github.com/user-attachments/assets/63637cd1-7860-4d40-a1c8-986a137748ed" />
+
+<img width="1017" alt="Screenshot 2025-03-24 at 2 03 36 AM" src="https://github.com/user-attachments/assets/14c56d78-b838-4238-83ae-85de8376b5a0" />
 
 Scaffold Operator 1
 
-<img width="1648" alt="Screenshot 2025-03-24 at 12 19 00 AM" src="https://github.com/user-attachments/assets/61218d0e-314f-49cf-a093-821a983a39ab" />
+<img width="1645" alt="Screenshot 2025-03-24 at 2 05 01 AM" src="https://github.com/user-attachments/assets/6dd3e6fd-8144-433c-a7ca-9d68f5ab15d8" />
+
 
 Scaffold Operator 2
 
-<img width="1205" alt="Screenshot 2025-03-24 at 12 21 50 AM" src="https://github.com/user-attachments/assets/0a247f84-46b0-4c98-a387-41d9f85885bf" />
+<img width="1652" alt="Screenshot 2025-03-24 at 2 06 12 AM" src="https://github.com/user-attachments/assets/004bc501-7c4e-48ed-a36f-5336b8f5842f" />
+
 
 Scaffold Operator 3
-<img width="1642" alt="Screenshot 2025-03-24 at 12 21 58 AM" src="https://github.com/user-attachments/assets/094a7ce5-72eb-4e4d-b241-5bfab6c7c752" />
+
+<img width="1638" alt="Screenshot 2025-03-24 at 2 07 03 AM" src="https://github.com/user-attachments/assets/94580297-76d6-42b2-81cc-706bf5134c95" />
 
 Operators Connected
-<img width="1192" alt="Screenshot 2025-03-24 at 12 24 52 AM" src="https://github.com/user-attachments/assets/96b41408-a529-47dc-a68e-234831d8c9b5" />
 
-NCN output 
+<img width="1014" alt="Screenshot 2025-03-24 at 2 08 37 AM" src="https://github.com/user-attachments/assets/44023dcf-2709-4426-a905-f3df40b65b5e" />
+
+NCN output
 
 <img width="822" alt="Screenshot 2025-03-24 at 12 28 25 AM" src="https://github.com/user-attachments/assets/b83d2bff-522f-413e-932c-ea02bdfcfe8c" />
-
-
-
-
-
-
-
