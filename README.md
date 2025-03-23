@@ -82,7 +82,6 @@ AVS Scaffold:
 
 <img width="1632" alt="Screenshot 2025-03-24 at 2 02 03 AM" src="https://github.com/user-attachments/assets/ea362686-975d-461b-ace6-ed7918ebd4a1" />
 
-
 Run AVS
 
 <img width="1017" alt="Screenshot 2025-03-24 at 2 03 36 AM" src="https://github.com/user-attachments/assets/14c56d78-b838-4238-83ae-85de8376b5a0" />
@@ -91,11 +90,9 @@ Scaffold Operator 1
 
 <img width="1645" alt="Screenshot 2025-03-24 at 2 05 01 AM" src="https://github.com/user-attachments/assets/6dd3e6fd-8144-433c-a7ca-9d68f5ab15d8" />
 
-
 Scaffold Operator 2
 
 <img width="1652" alt="Screenshot 2025-03-24 at 2 06 12 AM" src="https://github.com/user-attachments/assets/004bc501-7c4e-48ed-a36f-5336b8f5842f" />
-
 
 Scaffold Operator 3
 
@@ -107,4 +104,4 @@ Operators Connected
 
 NCN output
 
-<img width="822" alt="Screenshot 2025-03-24 at 12 28 25 AM" src="https://github.com/user-attachments/assets/b83d2bff-522f-413e-932c-ea02bdfcfe8c" />
+![output](https://res.cloudinary.com/dlgztvq9v/image/upload/cambrian/Screenshot_2025-03-24_at_12.28.25_AM_k1posr.png)

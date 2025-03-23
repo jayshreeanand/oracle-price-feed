@@ -60,25 +60,28 @@ Oracle test output:
 
 AVS Scaffold:
 
-<img width="1645" alt="Screenshot 2025-03-24 at 12 14 07 AM" src="https://github.com/user-attachments/assets/4a974445-4f8f-481c-8c00-73e4d9eee511" />
+<img width="1632" alt="Screenshot 2025-03-24 at 2 02 03 AM" src="https://github.com/user-attachments/assets/ea362686-975d-461b-ace6-ed7918ebd4a1" />
 
 Run AVS
-<img width="1383" alt="Screenshot 2025-03-24 at 12 16 43 AM" src="https://github.com/user-attachments/assets/63637cd1-7860-4d40-a1c8-986a137748ed" />
+
+<img width="1017" alt="Screenshot 2025-03-24 at 2 03 36 AM" src="https://github.com/user-attachments/assets/14c56d78-b838-4238-83ae-85de8376b5a0" />
 
 Scaffold Operator 1
 
-<img width="1648" alt="Screenshot 2025-03-24 at 12 19 00 AM" src="https://github.com/user-attachments/assets/61218d0e-314f-49cf-a093-821a983a39ab" />
+<img width="1645" alt="Screenshot 2025-03-24 at 2 05 01 AM" src="https://github.com/user-attachments/assets/6dd3e6fd-8144-433c-a7ca-9d68f5ab15d8" />
 
 Scaffold Operator 2
 
-<img width="1205" alt="Screenshot 2025-03-24 at 12 21 50 AM" src="https://github.com/user-attachments/assets/0a247f84-46b0-4c98-a387-41d9f85885bf" />
+<img width="1652" alt="Screenshot 2025-03-24 at 2 06 12 AM" src="https://github.com/user-attachments/assets/004bc501-7c4e-48ed-a36f-5336b8f5842f" />
 
 Scaffold Operator 3
-<img width="1642" alt="Screenshot 2025-03-24 at 12 21 58 AM" src="https://github.com/user-attachments/assets/094a7ce5-72eb-4e4d-b241-5bfab6c7c752" />
+
+<img width="1638" alt="Screenshot 2025-03-24 at 2 07 03 AM" src="https://github.com/user-attachments/assets/94580297-76d6-42b2-81cc-706bf5134c95" />
 
 Operators Connected
-<img width="1192" alt="Screenshot 2025-03-24 at 12 24 52 AM" src="https://github.com/user-attachments/assets/96b41408-a529-47dc-a68e-234831d8c9b5" />
+
+<img width="1014" alt="Screenshot 2025-03-24 at 2 08 37 AM" src="https://github.com/user-attachments/assets/44023dcf-2709-4426-a905-f3df40b65b5e" />
 
 NCN output
 
-<img width="822" alt="Screenshot 2025-03-24 at 12 28 25 AM" src="https://github.com/user-attachments/assets/b83d2bff-522f-413e-932c-ea02bdfcfe8c" />
+![output](https://res.cloudinary.com/dlgztvq9v/image/upload/cambrian/Screenshot_2025-03-24_at_12.28.25_AM_k1posr.png)
